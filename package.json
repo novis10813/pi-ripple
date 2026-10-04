@@ -1,0 +1,13 @@
+{
+	"name": "pi-ripple",
+	"version": "0.1.0",
+	"private": true,
+	"type": "module",
+	"description": "pi extension: post-turn lint delta and rename hints",
+	"scripts": {
+		"test": "node extensions/ripple/diagnostics/test-diagnostics.mjs && node extensions/ripple/test-ripple.mjs"
+	},
+	"pi": {
+		"extensions": ["./extensions/ripple/index.ts"]
+	}
+}
